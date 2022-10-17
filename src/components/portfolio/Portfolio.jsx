@@ -11,12 +11,12 @@ function Portfolio() {
         <article className="portfolio_item">
           <div className="portfolio_item-image"></div>
           <h3>This is a portfolio item title</h3>
-          <a href="" className="btn">
+          {/* <a href="#" className="btn">
             Github Link
           </a>
-          <a href="" className="bt btn-primary">
+          <a href="#" className="bt btn-primary">
             Netlify Link
-          </a>
+          </a> */}
         </article>
       </div>
     </section>
