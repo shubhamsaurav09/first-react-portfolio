@@ -33,12 +33,10 @@ function About() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea
-            ratione temporibus accusamus expedita nulla quisquam cumque error
-            alias quaerat praesentium mollitia quis voluptatum suscipit sed
-            tenetur iste distinctio voluptatem vitae dolorum, possimus fugit
-            earum eaque sapiente. Obcaecati vitae earum libero! Sapiente, quidem
-            distinctio quam placeat magni hic repellat laborum?
+            Passionate Software Engineer with a keen interest in Frontend
+            Development. Continuously learning and exploring Work experience in
+            React Web Development with Redux, Webpack, Axios and other popular
+            frameworks. Looking for new challenges and growth opportunities.
           </p>
 
           <a href="#contact" className="btn btn-primary">
