@@ -33,10 +33,12 @@ function About() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, fugit eveniet praesentium nisi temporibus iure
-            asperiores assumenda amet nesciunt quos, reprehenderit laudantium,
-            voluptas ad voluptatum exercitationem numquam iste debitis ex.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea
+            ratione temporibus accusamus expedita nulla quisquam cumque error
+            alias quaerat praesentium mollitia quis voluptatum suscipit sed
+            tenetur iste distinctio voluptatem vitae dolorum, possimus fugit
+            earum eaque sapiente. Obcaecati vitae earum libero! Sapiente, quidem
+            distinctio quam placeat magni hic repellat laborum?
           </p>
 
           <a href="#contact" className="btn btn-primary">
