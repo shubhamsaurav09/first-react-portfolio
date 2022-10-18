@@ -31,25 +31,19 @@ function Contact() {
           <article className="contact_option">
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
-            <h5>shubhamsauravft9@mail.com</h5>
-            <a
-              href="mailto:shubhamsauravft9@mail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a Message
-            </a>
+            <h5>shubhamsauravft9@gmail.com</h5>
+            <a href="mailto:shubhamsauravft9@mail.com">Send a Mail</a>
           </article>
           <article className="contact_option">
             <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>+91 8340531321</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=8340531321"
+              href="https://api.whatsapp.com/send?phone=918340531321"
               target="_blank"
               rel="noreferrer"
             >
-              Send a Message
+              Chat with Me
             </a>
           </article>
           <article className="contact_option">

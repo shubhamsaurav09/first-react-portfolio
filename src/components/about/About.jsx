@@ -34,9 +34,9 @@ function About() {
 
           <p>
             Passionate Software Engineer with a keen interest in Frontend
-            Development. Continuously learning and exploring Work experience in
-            React Web Development with Redux, Webpack, Axios and other popular
-            frameworks. Looking for new challenges and growth opportunities.
+            Development. Work experience in React Web Development with Redux,
+            Webpack, Axios and other popular frameworks. Looking for new
+            challenges and growth opportunities.
           </p>
 
           <a href="#contact" className="btn btn-primary">
