@@ -57,7 +57,7 @@ textarea {
 
 @media screen and (max-width: 1024px) {
   .container.contact_container {
-    grid-template-columns: 60%;
+    grid-template-columns: 70%;
     justify-content: center;
     gap: 2rem;
   }

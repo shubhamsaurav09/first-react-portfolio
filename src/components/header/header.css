@@ -98,3 +98,15 @@ header {
     display: none;
   }
 }
+
+@media screen and (min-height: 1080px) {
+  header {
+    height: 75vh;
+  }
+}
+
+  @media screen and (min-height: 1360px) {
+    header {
+      height: 70vh;
+    }
+}
