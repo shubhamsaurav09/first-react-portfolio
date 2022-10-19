@@ -30,7 +30,7 @@ function Footer() {
           <BsLinkedin />
         </a>
         <a href="https://www.instagram.com/shubham_100rav/">
-          <RiInstagramFilli />
+          <RiInstagramFill />
         </a>
         <a href="https://www.facebook.com/shubhamsauravft9">
           <FaFacebookF />
