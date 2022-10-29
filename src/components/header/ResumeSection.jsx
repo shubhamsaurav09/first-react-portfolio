@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/dummy-cv.docx";
+import CV from "../../assets/myCV.pdf";
 
 function ResumeSection() {
   return (

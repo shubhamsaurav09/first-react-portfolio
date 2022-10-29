@@ -99,14 +99,20 @@ header {
   }
 }
 
+@media screen and (max-width: 400px) {
+  header {
+    height: 115vh;
+  }
+}
+
 @media screen and (min-height: 1080px) {
   header {
     height: 75vh;
   }
 }
 
-  @media screen and (min-height: 1360px) {
-    header {
-      height: 70vh;
-    }
+@media screen and (min-height: 1360px) {
+  header {
+    height: 70vh;
+  }
 }
