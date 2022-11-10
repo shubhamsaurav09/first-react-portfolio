@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/Portfolio.png";
 import IMG2 from "../../assets/Recipe.png";
 import IMG3 from "../../assets/Calculator.png";
+import IMG4 from "../../assets/Animebook.png";
 
 function Portfolio() {
   const data = [
@@ -26,6 +27,13 @@ function Portfolio() {
       title: "Calculator",
       github: "https://github.com/shubhamsaurav09/calculator",
       demo: "https://calculator-ft9.netlify.app/",
+    },
+    {
+      id: 4,
+      image: IMG4,
+      title: "Animebook (in progress)",
+      github: "https://github.com/shubhamsaurav09/animebook",
+      demo: "https://animebook-ft9.netlify.app/",
     },
   ];
 
