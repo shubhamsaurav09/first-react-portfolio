@@ -33,10 +33,10 @@ function About() {
           </div>
 
           <p>
-            Software Engineer with a keen interest in Frontend Development. Work
-            experience in React Web Development with Redux, Webpack, Axios and
-            other popular frameworks. Looking for new challenges and growth
-            opportunities.
+            Dedicated professional with 1 year of experience in Front-end
+            development. <br></br> Proficient in HTML, CSS, JS and comprehensive
+            knowledge of ReactJS and its core principles. <br></br> Currently
+            looking for job opportunities as a Front End Developer.
           </p>
 
           <a href="#contact" className="btn btn-primary">
