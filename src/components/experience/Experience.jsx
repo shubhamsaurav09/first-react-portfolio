@@ -2,7 +2,12 @@ import React from "react";
 import "./experience.css";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3 } from "react-icons/tb";
-import { SiJavascript, SiMicrosoftsqlserver } from "react-icons/si";
+import {
+  SiJavascript,
+  SiMicrosoftsqlserver,
+  SiRedux,
+  SiReduxsaga,
+} from "react-icons/si";
 import { RiReactjsFill } from "react-icons/ri";
 import { FaJava } from "react-icons/fa";
 
@@ -16,6 +21,20 @@ function Experience() {
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
           <div className="experience_content">
+            <article className="experience_details">
+              <RiReactjsFill className="experience_details-icons" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiJavascript className="experience_details-icons" />
+              <div>
+                <h4>Javascript</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
             <article className="experience_details">
               <AiOutlineHtml5 className="experience_details-icons" />
               <div>
@@ -31,16 +50,16 @@ function Experience() {
               </div>
             </article>
             <article className="experience_details">
-              <SiJavascript className="experience_details-icons" />
+              <SiRedux className="experience_details-icons" />
               <div>
-                <h4>Javascript</h4>
+                <h4>Redux</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
-              <RiReactjsFill className="experience_details-icons" />
+              <SiReduxsaga className="experience_details-icons" />
               <div>
-                <h4>React</h4>
+                <h4>Saga</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -53,7 +72,7 @@ function Experience() {
               <SiMicrosoftsqlserver className="experience_details-icons" />
               <div>
                 <h4>SQL Server</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience_details">
