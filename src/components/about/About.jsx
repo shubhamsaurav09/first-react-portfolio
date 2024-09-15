@@ -22,21 +22,20 @@ function About() {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ year</small>
+              <small>3+ year</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-            Dedicated professional with 1 year of experience in Front-end
+            Dedicated professional with 3 years of experience in Front-end
             development. <br></br> Proficient in HTML, CSS, JS and comprehensive
-            knowledge of ReactJS and its core principles. <br></br> Currently
-            looking for job opportunities as a Front End Developer.
+            knowledge of ReactJS and its core principles. <br></br>
           </p>
 
           <a href="#contact" className="btn btn-primary">

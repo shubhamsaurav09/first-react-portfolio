@@ -25,6 +25,7 @@
 }
 
 .experience_content {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
@@ -33,6 +34,15 @@
 .experience_details {
   display: flex;
   gap: 1rem;
+}
+
+.skill_block {
+  width: 100%;
+}
+
+.progress_block {
+  margin-top: 0.5rem;
+  width: 75%;
 }
 
 .experience_details-icons {

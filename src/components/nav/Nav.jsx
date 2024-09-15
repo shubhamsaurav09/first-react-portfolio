@@ -34,9 +34,9 @@ function Nav() {
         <AiOutlineUser />
       </a>
       <a
-        href="#portfolio"
-        onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "#portfolio" ? "active" : ""}
+        href="#projects"
+        onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : ""}
       >
         <RiServiceLine />
       </a>

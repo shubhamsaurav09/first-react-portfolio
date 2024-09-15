@@ -1,15 +1,19 @@
 import React from "react";
 import "./experience.css";
-import { AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandCss3 } from "react-icons/tb";
+import { TbBrandReactNative, TbBrandFirebase  } from "react-icons/tb";
 import {
+  SiHtml5,
+  SiCss3,
+  SiSass,
   SiJavascript,
-  SiMicrosoftsqlserver,
+  SiTypescript,
+  SiReact,
+  SiAngular,
   SiRedux,
   SiReduxsaga,
+  // SiMicrosoftsqlserver,
 } from "react-icons/si";
-import { RiReactjsFill } from "react-icons/ri";
-import { FaJava } from "react-icons/fa";
+import LinearProgress from '@mui/material/LinearProgress';
 
 function Experience() {
   return (
@@ -19,67 +23,88 @@ function Experience() {
 
       <div className="container experience_container">
         <div className="experience_frontend">
-          <h3>Frontend Development</h3>
+          <h3>Frameworks & Libraries</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <RiReactjsFill className="experience_details-icons" />
-              <div>
+              <SiReact className="experience_details-icons" />
+              <div className="skill_block">
                 <h4>React</h4>
-                <small className="text-light">Intermediate</small>
+                <LinearProgress className="progress_block" variant="determinate" value={75} />
               </div>
             </article>
             <article className="experience_details">
-              <SiJavascript className="experience_details-icons" />
-              <div>
-                <h4>Javascript</h4>
-                <small className="text-light">Intermediate</small>
+              <TbBrandReactNative className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>React Native</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={33} />
               </div>
             </article>
             <article className="experience_details">
-              <AiOutlineHtml5 className="experience_details-icons" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Intermediate</small>
+              <TbBrandFirebase  className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>LIT</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={50} />
               </div>
             </article>
             <article className="experience_details">
-              <TbBrandCss3 className="experience_details-icons" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+              <SiAngular className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>Angular</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={33} />
               </div>
             </article>
             <article className="experience_details">
               <SiRedux className="experience_details-icons" />
-              <div>
+              <div className="skill_block">
                 <h4>Redux</h4>
-                <small className="text-light">Intermediate</small>
+                <LinearProgress className="progress_block" variant="determinate" value={75} />
               </div>
             </article>
             <article className="experience_details">
               <SiReduxsaga className="experience_details-icons" />
-              <div>
+              <div className="skill_block">
                 <h4>Saga</h4>
-                <small className="text-light">Intermediate</small>
+                <LinearProgress className="progress_block" variant="determinate" value={50} />
               </div>
             </article>
           </div>
         </div>
         <div className="experience_backend">
-          <h3>Backend Development</h3>
+          <h3>Language & Styles</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <SiMicrosoftsqlserver className="experience_details-icons" />
-              <div>
-                <h4>SQL Server</h4>
-                <small className="text-light">Beginner</small>
+              <SiJavascript className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>Javascript</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={50} />
               </div>
             </article>
             <article className="experience_details">
-              <FaJava className="experience_details-icons" />
-              <div>
-                <h4>Java</h4>
-                <small className="text-light">Beginner</small>
+              <SiTypescript className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>Typescript</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={50} />
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiHtml5 className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>HTML</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={75} />
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiCss3 className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>CSS</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={75} />
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiSass className="experience_details-icons" />
+              <div className="skill_block">
+                <h4>SCSS</h4>
+                <LinearProgress className="progress_block" variant="determinate" value={75} />
               </div>
             </article>
           </div>
