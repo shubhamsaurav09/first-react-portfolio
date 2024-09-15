@@ -34,8 +34,9 @@ function About() {
 
           <p>
             Dedicated professional with 3 years of experience in Front-end
-            development. <br></br> Proficient in HTML, CSS, JS and comprehensive
-            knowledge of ReactJS and its core principles. <br></br>
+            development. <br></br> Proficient in HTML, CSS, JS, ReactJS, Redux,
+            React Native, LIT JS and comprehensive knowledge of AngularJS and
+            its core principles. <br></br>
           </p>
 
           <a href="#contact" className="btn btn-primary">
