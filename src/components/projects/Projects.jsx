@@ -26,14 +26,14 @@ function Projects() {
     {
       id: 3,
       image: IMG3,
-      title: "eSwasthyaDham",
+      title: "eSwasthyaDham (Team Collaboration)",
       github: "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2032506",
       demo: "https://eswasthyadham.uk.gov.in/",
     },
     {
       id: 4,
       image: IMG4,
-      title: "Animebook (in progress)",
+      title: "Animebook (In progress)",
       github: "https://github.com/shubhamsaurav09/animebook",
       demo: "https://animebook-ft9.netlify.app/",
     },
