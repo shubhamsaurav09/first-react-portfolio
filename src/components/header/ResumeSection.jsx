@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/myCV1.pdf";
+import CV from "../../assets/myCV.pdf";
 
 function ResumeSection() {
   return (

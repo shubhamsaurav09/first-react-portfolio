@@ -33,10 +33,12 @@ function About() {
           </div>
 
           <p>
-            Dedicated professional with 3 years of experience in Front-end
-            development. <br></br> Proficient in HTML, CSS, JS, ReactJS, Redux,
-            React Native, LIT JS and comprehensive knowledge of AngularJS and
-            its core principles. <br></br>
+            Frontend Developer with 3 years of experience specializing in
+            building responsive and user-centric web applications. Proficient in
+            React, TypeScript, JavaScript, HTML, and CSS, with additional
+            expertise in React Native, Angular, and LIT. Passionate about
+            translating design concepts into high-quality code and enhancing
+            user experience through efficient and scalable solutions.
           </p>
 
           <a href="#contact" className="btn btn-primary">
